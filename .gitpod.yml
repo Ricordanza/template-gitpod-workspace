@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.dockerfile
+
+tasks:
+  - command: export TZ="Asia/Tokyo"; yes | anyenv install --init; git secrets --install; git secrets --register-aws --global; sh ./.vault.sh; clear;
