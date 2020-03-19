@@ -1,4 +1,5 @@
-# Gidpod workspace template
+# Gidpod workspace template ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/gitpod) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/gitpod)
+
 Template of my gitpod workspace.  
 Use confidential information using [HashiCorp Vault](https://www.vaultproject.io/).  
 Vault is S3 Storage Backend.  
@@ -16,6 +17,9 @@ When using, the following environment variables must be set.
 
 # Base image
 [gitpod/workspace-full:latest](https://hub.docker.com/r/gitpod/workspace-full)
+
+# image
+[![dockeri.co](https://dockeri.co/image/ricordanza/gitpod)](https://hub.docker.com/r/ricordanza/gitpod)
 
 # Installed applications
 - [anyenv](https://github.com/anyenv/anyenv) and [anyenv-update](https://github.com/znz/anyenv-update)
