@@ -5,6 +5,8 @@ Use confidential information using [HashiCorp Vault](https://www.vaultproject.io
 Vault is S3 Storage Backend.  
 When using, the following environment variables must be set.  
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/Ricordanza/template-gitpod-workspace)
+
 # Environment Variables
 |  Name  |  Explanation of value   |
 | ---- | ---- |
